@@ -5,7 +5,7 @@
 
 ## OpenCore 1.0.0  
 
-This is my own EFI for MSI Gaming plus Z490 created by zero. Fully working for my condition. Following Elite Guide, Dortania. It includes some features below. Use it responsibly. Add your Smbios. I'm not build expert. Usb map is ok,15 port, include my Aio Header. 
+This is my own EFI for MSI Gaming plus Z490 created by zero. Fully working for my condition. Following Elite Guide, Dortania. It includes some features below. Use it responsibly. Add your Smbios. I'm not build expert. Usb map is ok, for my usage, include my Aio Header. 
 
 ## macOS: 13.3.1 - Smbios 20,2
 Dual boots Windows 11 and macOS ventura.
