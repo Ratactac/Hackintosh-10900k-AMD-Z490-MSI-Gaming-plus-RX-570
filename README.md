@@ -5,6 +5,8 @@
 
 ## OpenCore 1.0.0  
 
+This is my own EFI for MSI Gaming plus Z490 created by zero. Fully working for my condition. Following Elite Guide, Dortania. It includes some features below. Use it responsibly. Add your Smbios. I'm not build expert. Usb map is ok,15 port, include my Aio Header. 
+
 ## macOS: 13.3.1 - Smbios 20,2
 Dual boots Windows 11 and macOS ventura.
 
@@ -16,7 +18,7 @@ Dual boots Windows 11 and macOS ventura.
   + No wifi.
   + Sound not config, I use a green usb external card.
   + Usb mapping properly. Mapped with my aio. 
-  + Ethernet: Native Ethernet via kext LucyRTL8125Ethernet.kext
+  + Ethernet: RTL8125B-CG 2.5G LAN Controller actiev via kext LucyRTL8125Ethernet.kext
   + RAM: 128GB @ 3200 MHz DDR4
   + NVME & SATA SSD:
       + 2TB Samsung SSD plus NVMe PCIe SSD ( macOS )
@@ -29,7 +31,6 @@ The lastest bios ( 7C75VAD) version make me the issue EXITBS:START. The previous
 
 <details>
 <summary><strong>Click to reveal Bios Settings</strong></summary>
-
   
   Advanced Menu ( F7 key )
       + Memory XMP Profile 1: Enabled (if supported by RAM)
