@@ -88,7 +88,9 @@ This is my own EFI created by zero with my own Usb Map. Following Elite Guide, D
   
   + SSDT-SBUS-MCHC fix Sbus path.
 
-## Usb Map - Usb C desactivate - 13/15 usb
+## Usb Map 
+
+Usb C is desactivated - 13/15 usb - You can remap if you have Usb C key -> https://youtu.be/MFSaj5qf2eQ
 
 ![https://github.com/Ratactac/Hackintosh-10900k-AMD-Z490-MSI-Gaming-plus-RX-570/blob/main/MAp_Usb.png](https://github.com/Ratactac/Hackintosh-10900k-AMD-Z490-MSI-Gaming-plus-RX-570/blob/main/MAp_Usb.png)
  
