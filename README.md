@@ -76,9 +76,12 @@ The lastest bios ( 7C75VAD) version make me the issue EXITBS:START. The previous
 ## Note EFI
 
 Cfg lock Disabled ->  AppleCpuPmCfgLock & AppleXcpmCfgLock is uncheck in config.plist Kernel > Quirks .
+
 Vt-D activated    -> disableIOmapper is enabled.
 
-This is my own EFI created by zero. Following Elite Guide, Dortania. It includes some features below. Use it responsibly. Add your Smbios. I'm no build expert. I used it for Ae, Pr, Unity3D. 
+## Note
+
+This is my own EFI created by zero. Following Elite Guide, Dortania. It includes some features below. Use it responsibly. Add your Smbios. I'm no build expert. 
   
   + SSDT-BRG0 fix some path of gpu. Cosmetic
   
