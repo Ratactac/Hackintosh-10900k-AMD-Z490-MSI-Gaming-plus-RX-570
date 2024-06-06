@@ -16,7 +16,7 @@ Dual boots Windows 11 and macOS ventura.
   + Motherboard: MSI MPG Z490 Gaming Plus
   + GPU: AMD RX 570 4gb
   + No wifi.
-  + Sound not config, I use a green usb external card.
+  + Sound Work.
   + Usb mapping properly. Mapped with my aio. 
   + Ethernet: RTL8125B-CG 2.5G LAN Controller actiev via kext LucyRTL8125Ethernet.kext
   + RAM: 128GB @ 3200 MHz DDR4
