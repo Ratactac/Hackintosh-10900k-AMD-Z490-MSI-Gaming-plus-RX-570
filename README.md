@@ -82,12 +82,15 @@ Vt-D activated    -> disableIOmapper is enabled.
 
 ## Note
 
-This is my own EFI created by zero. Following Elite Guide, Dortania. It includes some features below. Use it responsibly. Add your Smbios. I'm no build expert. 
+This is my own EFI created by zero with my own Usb Map. Following Elite Guide, Dortania. It includes some features below. Use it responsibly. Add your Smbios. I'm not a build expert. 
   
   + SSDT-BRG0 fix some path of gpu. Cosmetic
   
   + SSDT-SBUS-MCHC fix Sbus path.
-  
+
+## Usb Map https://github.com/Ratactac/Hackintosh-10900k-AMD-Z490-MSI-Gaming-plus-RX-570/blob/main/MAp_Usb.png
+
+  ![[https://github.com/Ratactac/Hackintosh-10900k-AMD-Z490-MSI-Gaming-plus-RX-570/blob/main/intro.png](https://github.com/Ratactac/Hackintosh-10900k-AMD-Z490-MSI-Gaming-plus-RX-570/blob/main/MAp_Usb.png)](https://github.com/Ratactac/Hackintosh-10900k-AMD-Z490-MSI-Gaming-plus-RX-570/blob/main/intro.png)
  
 ## Note Corsair iCUE H115i can break the awake. Not in this version.
 
