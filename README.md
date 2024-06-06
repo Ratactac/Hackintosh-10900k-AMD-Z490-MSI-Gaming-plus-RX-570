@@ -30,7 +30,7 @@ Dual boots Windows 11 and macOS ventura.
 The lastest bios ( 7C75VAD) version make me the issue EXITBS:START. The previous version works fine ( 7C75VAD ). You get it here ( https://fr.msi.com/Motherboard/MPG-Z490-GAMING-PLUS/support ) and flash it.
 
 <details>
-<summary><strong>Click to reveal Bios Settings</strong></summary>
+<summary><strong>## Click to reveal Bios Settings</strong></summary>
   
   Advanced Menu ( F7 key )
       + Memory XMP Profile 1: Enabled (if supported by RAM)
