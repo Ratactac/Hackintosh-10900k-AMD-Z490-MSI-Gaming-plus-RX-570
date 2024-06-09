@@ -1,11 +1,11 @@
-# Hackintosh MacOS Ventura 13.3.1 - 10900k + Z490-MSI-Gaming-Plus + AMD-RX-570-4gb
+# Hackintosh MacOS Ventura 13.3.1 - Intel i9 10900k + Z490-MSI-Gaming-Plus + AMD-RX-570-4gb
 
 
 ![https://github.com/Ratactac/Hackintosh-10900k-AMD-Z490-MSI-Gaming-plus-RX-570/blob/main/intro.png](https://github.com/Ratactac/Hackintosh-10900k-AMD-Z490-MSI-Gaming-plus-RX-570/blob/main/intro.png)
 
 ## OpenCore 1.0.0  
 
-This is my own EFI for MSI Gaming plus Z490 created by zero. Fully working for my condition. Following Elite Guide, Dortania. It includes some features below. Use it responsibly. Add your Smbios. I'm not build expert. Usb map is ok, for my usage, include my Aio Header. 
+This is my own EFI for MSI Gaming plus Z490 created by zero. Fully working for my condition. I have following the Elite Guide, and Dortania. It includes some features below. Use it responsibly. Add your Smbios. I'm not build expert. Usb map is ok, for my usage, include my Aio Header. 
 
 ## macOS: 13.3.1 - Smbios 20,2
 Dual boots Windows 11 and macOS ventura.
@@ -82,7 +82,7 @@ Vt-D activated    -> disableIOmapper is enabled.
 
 ## Note
 
-This is my own EFI created by zero with my own Usb Map. Following Elite Guide, Dortania. It includes some features below. Use it responsibly. Add your Smbios. I'm not a build expert. 
+This is my own EFI created by zero with my own Usb Map. Use it responsibly. Add your Smbios. I'm not a build expert. But I think it's pretty clean.
   
   + SSDT-BRG0 fix some path of gpu. Cosmetic
   
@@ -90,7 +90,7 @@ This is my own EFI created by zero with my own Usb Map. Following Elite Guide, D
 
 ## Usb Map 
 
-Usb C port is desactivated - 13/15 usb - You can remap if you have Usb C key -> https://youtu.be/MFSaj5qf2eQ
+Usb C port is desactivated - 13/15 usb mapped - You can remap & add 2 more ports if you have Usb C key -> https://youtu.be/MFSaj5qf2eQ
 
 ![https://github.com/Ratactac/Hackintosh-10900k-AMD-Z490-MSI-Gaming-plus-RX-570/blob/main/MAp_Usb.png](https://github.com/Ratactac/Hackintosh-10900k-AMD-Z490-MSI-Gaming-plus-RX-570/blob/main/MAp_Usb.png)
  
@@ -98,7 +98,7 @@ Usb C port is desactivated - 13/15 usb - You can remap if you have Usb C key -> 
 
 Control pump & fan via [liquidctl ](https://github.com/liquidctl/liquidctl)https://github.com/liquidctl/liquidctl 
 
-## Soon changing with 3090 nvidia and IntelGpu;
+## Soon changing with 3090 nvidia and IntelGpu for macos;
 
 ## Credits 
 
