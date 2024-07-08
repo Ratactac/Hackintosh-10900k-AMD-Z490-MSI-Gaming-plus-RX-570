@@ -3,6 +3,7 @@
 
 ![https://github.com/Ratactac/Hackintosh-10900k-AMD-Z490-MSI-Gaming-plus-RX-570/blob/main/intro.png](https://github.com/Ratactac/Hackintosh-10900k-AMD-Z490-MSI-Gaming-plus-RX-570/blob/main/intro.png)
 
+
 ## OpenCore 1.0.0  
 
 This is my own clean EFI for MSI MPG Z490 Gaming plus created by zero, and for my Comet Lake Cpu. Not ready for Rocket Lake. Fully working for my condition. I have following the Elite Guide, and Dortania. It includes some features below. Use it responsibly. Add your own Smbios close of your build ( CPU, iGPU). Usb map is pretty ok. For my usage, include my Aio Header. 
@@ -18,9 +19,9 @@ Dual boots Windows 11 and macOS ventura.
   + Motherboard: MSI MPG Z490 Gaming Plus
   + GPU: AMD RX 570 4gb
   + No wifi.
-  + Sound Work.
+  + Sound Work. Realtek® ALC1200-VD1 Codec
   + Usb mapping properly. Mapped with my aio. 
-  + Ethernet: RTL8125B-CG 2.5G LAN Controller actiev via kext LucyRTL8125Ethernet.kext
+  + Ethernet: RTL8125B-CG 2.5G LAN Controller active via kext LucyRTL8125Ethernet.kext
   + RAM: 128GB @ 3200 MHz DDR4
   + NVME & SATA SSD:
       + 2TB Samsung SSD plus NVMe PCIe SSD ( macOS )
@@ -78,7 +79,7 @@ The lastest bios ( 7C75VAD) version make me the issue EXITBS:START. The previous
   
 ## Smbios & OCat
 First Download [OCauxiliaryTools](https://github.com/ic005k/OCAuxiliaryTools/releases/tag/20240001)
-Mount EFI & open EFI/OC/config.plist. Change Smbios close to your CPU > PI section.
+Mount EFI & open EFI/OC/config.plist. Generate Smbios close to your CPU > PI section.
 
 ## Note EFI
 
@@ -111,3 +112,5 @@ Control pump & fan via [liquidctl ](https://github.com/liquidctl/liquidctl)https
 [EliteForum](https://elitemacx86.com/)
 
 [Bible](https://dortania.github.io/docs/latest/Configuration.html)
+
+[5T33Z0](https://github.com/5T33Z0)
