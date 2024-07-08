@@ -5,9 +5,9 @@
 
 ## OpenCore 1.0.0  
 
-This is my own EFI for MSI Gaming plus Z490 created by zero. Fully working for my condition. I have following the Elite Guide, and Dortania. It includes some features below. Use it responsibly. Add your Smbios. I'm not build expert. Usb map is ok, for my usage, include my Aio Header. 
 This is my own clean EFI for MSI MPG Z490 Gaming plus created by zero, and for my Comet Lake Cpu. Not ready for Rocket Lake. Fully working for my condition. I have following the Elite Guide, and Dortania. It includes some features below. Use it responsibly. Add your own Smbios close of your build ( CPU, iGPU). Usb map is pretty ok. For my usage, include my Aio Header. 
-For Adapt method for Rocket Lake, use this EFI and follow google + dortania guide page + Rocket Lake or use quick method with [Elite's Video](https://www.youtube.com/watch?v=ggSgZLmesWI)
+
+TO Adapt method for Rocket Lake, use this EFI and follow google + dortania guide page + Rocket Lake or use quick method with [Elite's Video](https://www.youtube.com/watch?v=ggSgZLmesWI).
 
 ## macOS: 13.3.1 - Smbios 20,2
 Dual boots Windows 11 and macOS ventura.
