@@ -6,6 +6,8 @@
 ## OpenCore 1.0.0  
 
 This is my own EFI for MSI Gaming plus Z490 created by zero. Fully working for my condition. I have following the Elite Guide, and Dortania. It includes some features below. Use it responsibly. Add your Smbios. I'm not build expert. Usb map is ok, for my usage, include my Aio Header. 
+This is my own clean EFI for MSI MPG Z490 Gaming plus created by zero, and for my Comet Lake Cpu. Not ready for Rocket Lake. Fully working for my condition. I have following the Elite Guide, and Dortania. It includes some features below. Use it responsibly. Add your own Smbios close of your build ( CPU, iGPU). Usb map is pretty ok. For my usage, include my Aio Header. 
+For Adapt method for Rocket Lake, use this EFI and follow google + dortania guide page + Rocket Lake or use quick method with [Elite's Video](https://www.youtube.com/watch?v=ggSgZLmesWI)
 
 ## macOS: 13.3.1 - Smbios 20,2
 Dual boots Windows 11 and macOS ventura.
@@ -73,12 +75,16 @@ The lastest bios ( 7C75VAD) version make me the issue EXITBS:START. The previous
         + Secure Boot: Standart
           
   </details>
+  
+## Smbios & OCat
+First Download [OCauxiliaryTools](https://github.com/ic005k/OCAuxiliaryTools/releases/tag/20240001)
+Mount EFI & open EFI/OC/config.plist. Change Smbios close to your CPU > PI section.
 
 ## Note EFI
 
-Cfg lock Disabled ->  AppleCpuPmCfgLock & AppleXcpmCfgLock is uncheck in config.plist Kernel > Quirks .
+Cfg lock Disabled in Bios -> AppleXcpmCfgLock is uncheck in config.plist Kernel > Quirks .
 
-Vt-D activated    -> disableIOmapper is enabled.
+Vt-D activated -> disableIOmapper is enabled.
 
 ## Note
 
