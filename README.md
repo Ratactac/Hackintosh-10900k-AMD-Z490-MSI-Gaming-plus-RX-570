@@ -9,7 +9,7 @@
 ## macOS: 14.8.3 - Smbios 20,2
 Dual boots Windows 11 and macOS ventura.
 
-## OpenCore 1.0.0  
+## OpenCore 1.0.6  
 
 This is my own clean EFI for MSI MPG Z490 Gaming plus created by zero, and for my Comet Lake Cpu. Not ready for Rocket Lake. Fully working for my condition. I have following the Elite Guide, and Dortania. It includes some features below. Use it responsibly. Add your own Smbios close of your build ( CPU, iGPU). Usb map is pretty ok. For my usage, include my Aio Header. 
 
