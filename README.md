@@ -11,7 +11,7 @@ Dual boots Windows 11 and macOS Sonoma.
 
 ## OpenCore 1.0.6  
 
-This is my own clean EFI for MSI MPG Z490 Gaming plus created by zero, and for my Comet Lake Cpu. Not ready for Rocket Lake. Fully working for my condition. I have following the Elite Guide, and Dortania. It includes some features below. Path the SSDT-MCHC-SBUS to correct the path _SB_.PCI0 and _SB_.PCI0.SBUS. Use it responsibly. Adapt & Add your own Smbios close of your build ( CPU, iGPU). Usb map is pretty ok. For my usage, include my Aio Header.
+This is my own clean EFI for MSI MPG Z490 Gaming plus created by zero, and for my Comet Lake Cpu. Not ready for Rocket Lake. Fully working for my condition. I have following the Elite Guide, and Dortania. It includes some features below. Path the SSDT-MCHC-SBUS is corrected the path _SB_.PCI0 and _SB_.PCI0.SBUS. Use it responsibly. Adapt & Add your own Smbios close of your build ( CPU, iGPU). Usb map is pretty ok. For my usage, include my Aio Header.
 
 TO Adapt method for Rocket Lake, use this EFI and follow google + dortania guide page + Rocket Lake or use quick method with [Elite's Video](https://www.youtube.com/watch?v=ggSgZLmesWI).
 
