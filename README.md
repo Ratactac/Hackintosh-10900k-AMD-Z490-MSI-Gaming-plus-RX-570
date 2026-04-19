@@ -1,8 +1,13 @@
-# Hackintosh MacOS Ventura 13.3.1 - Intel i9 10900k + Z490-MSI-Gaming-Plus + AMD-RX-570-4gb
+# Hackintosh MacOS Sonoma 14.8.3 - Intel i9 10900k + Z490-MSI-Gaming-Plus + AMD-RX-6600XT-8gb
 
 
 ![https://github.com/Ratactac/Hackintosh-10900k-AMD-Z490-MSI-Gaming-plus-RX-570/blob/main/intro.png](https://github.com/Ratactac/Hackintosh-10900k-AMD-Z490-MSI-Gaming-plus-RX-570/blob/main/intro.png)
 
+
+**** Last update MacOS Sonoma 14.8.3 (23J220) - Change to amd 6600xt - Change ACPI
+
+## macOS: 14.8.3 - Smbios 20,2
+Dual boots Windows 11 and macOS ventura.
 
 ## OpenCore 1.0.0  
 
@@ -10,14 +15,11 @@ This is my own clean EFI for MSI MPG Z490 Gaming plus created by zero, and for m
 
 TO Adapt method for Rocket Lake, use this EFI and follow google + dortania guide page + Rocket Lake or use quick method with [Elite's Video](https://www.youtube.com/watch?v=ggSgZLmesWI).
 
-## macOS: 13.3.1 - Smbios 20,2
-Dual boots Windows 11 and macOS ventura.
-
 ## Complete hardware specs:
   + CPU: Intel 10900k No OC
   + WaterCooling: Corsair iCUE H115i RGB PRO XT 
   + Motherboard: MSI MPG Z490 Gaming Plus
-  + GPU: AMD RX 570 4gb
+  + GPU: AMD RX 6600xt 8gb
   + No wifi.
   + Sound Work. Realtek® ALC1200-VD1 Codec
   + Usb mapping properly. Mapped with my aio. 
@@ -85,7 +87,7 @@ Mount EFI & open EFI/OC/config.plist. Generate Smbios close to your CPU > PI sec
 
 Cfg lock Disabled in Bios -> AppleXcpmCfgLock is uncheck in config.plist Kernel > Quirks .
 
-Vt-D activated -> disableIOmapper is enabled.
+Vt-D activated -> disableIOmapper is disabled now.
 
 ## Note
 
@@ -93,7 +95,9 @@ This is my own EFI created by zero with my own Usb Map. Use it responsibly. Add 
   
   + SSDT-BRG0 fix some path of gpu. Cosmetic
   
-  + SSDT-SBUS-MCHC fix Sbus path.
+  + SSDT-SBUS-MCHC custom, fix Sbus path for 10900k or 10850k.
+
+  + Remove SSDT-PLUG sonoma no neeed it.
 
 ## Usb Map 
 
