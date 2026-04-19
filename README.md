@@ -32,7 +32,7 @@ TO Adapt method for Rocket Lake, use this EFI and follow google + dortania guide
       + 4TB Samsung SSD 870 QVO ( save )
 
 ## Version Bios: 7C75VAD
-The lastest bios ( 7C75VAD) version make me the issue EXITBS:START. The previous version works fine ( 7C75VAD ). You get it here ( https://fr.msi.com/Motherboard/MPG-Z490-GAMING-PLUS/support ) and flash it.
+The lastest bios ( 7C75VAD) version make me the issue EXITBS:START. The previous version works fine ( 7C75VAD ). You get it here ( https://fr.msi.com/Motherboard/MPG-Z490-GAMING-PLUS/support ) and flash it. You will do not have the lastest microcode. 
 
 <details>
 <summary><strong>## Click to reveal Bios Settings</strong></summary>
