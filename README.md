@@ -7,7 +7,7 @@
 **** Last update MacOS Sonoma 14.8.3 (23J220) - Change to amd 6600xt - Change ACPI
 
 ## macOS: 14.8.3 - Smbios 20,2
-Dual boots Windows 11 and macOS ventura.
+Dual boots Windows 11 and macOS Sonoma.
 
 ## OpenCore 1.0.6  
 
