@@ -87,13 +87,13 @@ Mount EFI & open EFI/OC/config.plist. Generate Smbios close to your CPU > PI sec
 Igpu for only quickthink, screen on 6600xt. device id 0300913E
 
 ResizeBar is activated for windows and macos
+
 OCAT : ResizeAppleGpuBars = 0
 OCAT : ResizeGpuBars = -1
 
 To desactivated
 BIOS : Above 4G Decoding = Enabled (keep it)
 BIOS : Re-Size BAR = Disabled
-
 OCAT : Booter > Quirks > ResizeAppleGpuBars = -1
 OCAT : UEFI > Quirks > ResizeGpuBars = -1
 
