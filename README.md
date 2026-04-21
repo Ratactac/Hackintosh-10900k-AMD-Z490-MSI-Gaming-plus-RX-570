@@ -110,7 +110,7 @@ OCAT : UEFI > Quirks > ResizeGpuBars = -1
 
 Cfg lock Disabled in Bios -> AppleXcpmCfgLock is uncheck in config.plist Kernel > Quirks .
 
-Vt-D activated -> disableIOmapper is disabled now.
+Vt-D desactivated -> disableIOmapper is disabled now. if needed vitualization activate both on bios and ocat.
 
 ## Note
 
