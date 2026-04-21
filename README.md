@@ -41,7 +41,7 @@ The lastest bios ( 7C75VAD) version make me the issue EXITBS:START. The previous
       + Memory XMP Profile 1: Enabled (if supported by RAM)
       
   + OC [TAB]
-      + Intel VT-d tech: Enabled
+      + Intel VT-d tech: Disabled. If you need it & virtualization ( enabled it in bios and enable disableiomapper in config.plist )
       + CFG lock : Disabled 
       + SW Guard Extensions (SGX): Disabled
      
@@ -67,7 +67,7 @@ The lastest bios ( 7C75VAD) version make me the issue EXITBS:START. The previous
 
       + Pcie \ PCI SUB-system Settings
           + Above 4G mem/crypto: Enabled
-          + Re-Size BAR Support: Disabled 
+          + Re-Size BAR Support: Enabled
   
       + Boot
         + MSI Fast Boot: Disabled
@@ -82,6 +82,22 @@ The lastest bios ( 7C75VAD) version make me the issue EXITBS:START. The previous
 ## Smbios & OCat
 First Download [OCauxiliaryTools](https://github.com/ic005k/OCAuxiliaryTools/releases/tag/20240001)
 Mount EFI & open EFI/OC/config.plist. Generate Smbios close to your CPU > PI section.
+
+## Graphic is headless. 
+Igpu for only quickthink, screen on 6600xt. device id 0300913E
+
+ResizeBar is activated for windows and macos
+OCAT : ResizeAppleGpuBars = 0
+OCAT : ResizeGpuBars = -1
+
+To desactivated
+BIOS : Above 4G Decoding = Enabled (keep it)
+BIOS : Re-Size BAR = Disabled
+
+OCAT : Booter > Quirks > ResizeAppleGpuBars = -1
+OCAT : UEFI > Quirks > ResizeGpuBars = -1
+
+
 
 ## Note EFI
 
