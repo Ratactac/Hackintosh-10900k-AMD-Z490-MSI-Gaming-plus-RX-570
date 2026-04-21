@@ -95,6 +95,7 @@ OCAT : ResizeGpuBars = -1
 
 
 To desactivated
+
 BIOS : Above 4G Decoding = Enabled (keep it)
 
 BIOS : Re-Size BAR = Disabled
