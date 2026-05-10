@@ -1,12 +1,12 @@
-# Hackintosh MacOS Sonoma 14.8.3 - Intel i9 10900k + Z490-MSI-Gaming-Plus + AMD-RX-6600XT-8gb
+# Hackintosh MacOS Sonoma 14.8.4 - Intel i9 10900k + Z490-MSI-Gaming-Plus + AMD-RX-6600XT-8gb
 
 
 ![https://github.com/Ratactac/Hackintosh-10900k-AMD-Z490-MSI-Gaming-plus-RX-570/blob/main/config.png](https://github.com/Ratactac/Hackintosh-10900k-AMD-Z490-MSI-Gaming-plus-RX-570/blob/main/config.png)
 
 
-**** Last update MacOS Sonoma 14.8.3 (23J220) - Change to amd 6600xt - Change ACPI
+**** Last update MacOS Sonoma 14.8.4 (23J319) - Change to amd 6600xt - Change ACPI
 
-## macOS: 14.8.3 - Smbios 20,2
+## macOS: 14.8.4 - Smbios 20,2
 Dual boots Windows 11 and macOS Sonoma.
 
 ## OpenCore 1.0.6  
