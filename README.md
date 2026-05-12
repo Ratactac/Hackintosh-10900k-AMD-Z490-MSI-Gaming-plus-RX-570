@@ -39,11 +39,13 @@ This is my own clean EFI for **MSI MPG Z490 Gaming Plus** created from scratch f
 * **Audio:** Realtek® ALC1200-VD1 Codec
 * **Ethernet:** RTL8125B 2.5G (via `LucyRTL8125Ethernet.kext`)
 * **RAM:** 128GB @ 3200 MHz DDR4
-* **Storage:** * 2TB Samsung NVMe (macOS)
+* **Storage:**
+* 2TB Sandisk SSD Plus (macOS)
 * 500GB Samsung 860 EVO (Windows)
-* 2TB Samsung 970 EVO Plus (Adobe Cache)
+* 2TB Samsung 970 EVO Plus NVMe (Adobe Cache)
 * 4TB Samsung 870 QVO (Storage)
-
+* 3TB mix Sandisk Ultra (TimeMachine)
+  
 ## ***BIOS Version & Settings***
 
 **Version:** `7C75VAD`.
@@ -95,7 +97,6 @@ The iGPU is set to **Headless mode** (Display connected to RX 6600 XT).
 * `ResizeAppleGpuBars` = **0**
 * `ResizeGpuBars` = **-1**
 
-
 ## ***ACPI & USB Map***
 
 * **SSDT-PLUG:** Removed (Not required for Sonoma with this Comet Lake setup).
@@ -108,7 +109,7 @@ The iGPU is set to **Headless mode** (Display connected to RX 6600 XT).
 
 * **Sleep/Wake:** Fixed for Corsair iCUE H115i. For pump/fan control, use `liquidctl`.
 
-
+* Storage: APFS TRIM enabled with SetApfsTrimTimeout = -1 for optimal SSD performance and fast boot times.
 
 ## ***Credits***
 
