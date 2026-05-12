@@ -89,8 +89,9 @@ This is my own clean EFI for **MSI MPG Z490 Gaming Plus** created from scratch f
 
 The iGPU is set to **Headless mode** (Display connected to RX 6600 XT).
 
-* **Device ID:** Must be set as **Data** type in OCAT: `mz4AAA==` (`0300913E`).
-
+* **Device ID : Data : 9B3E0000 in OCAT: `mz4AAA==` in plist
+* **AAPL,ig-platform-id : Data : 0300C89B `AwDImw=` in plist
+  
 **Re-Size BAR Configuration:**
 
 * **OCAT / Config.plist:**
